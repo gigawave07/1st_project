@@ -5,10 +5,10 @@ html {
 }
 
 .container {
-    margin: 100px 100px 100px 100px;
+    margin: 100px;
     background-color: white;
     background: url(background.jpg) no-repeat;
-    background-size: 1280px 768px;
+    background-size: contain;
     width: 1280px;
     height: 768px;
 }
@@ -28,8 +28,9 @@ html {
     color: black;
 }
 
-#LOGIN {
+#login {
     padding: 3px 20px 3px 20px;
+    margin-right: 200px;
     background-color: white;
     border: 2px solid;
     border-color: turquoise;
